@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/award16april.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Linkเข้ากับ WebsiteของFont -->
 </head>
 <body>
@@ -35,29 +35,29 @@
             <tr>
                 <th><h5>ตรวจสอบรางวัล</h5>
                     <p class="check">  
-                        <label><b>16 มีนาคม พ.ศ.2565 </b>:</label>
-                        <button><a href="award1april.ejs"> NEXT</a></button>
+                        <label><b>16 เมษายน พ.ศ.2565 </b>:</label>
+                        
                     </p>
                     <button>ยืนยัน</button>   
                 <input type="text" name="16march" value="">
                 </th>
                 <table class="award-table">
-                    <tr>
-                        <th>
-                            <tr>
-                                <td><p>รางวัลที่1!!</p></td>
-                                <td><p>รางวัลที่2!!</p></td>
-                                <td><p>1ตัวท้าย!!</p></td>
-                            </tr>
-                            <% award16march.forEach(function(item) { %>
-                            <tr>
-                                <td><%= item.firstaward %></td> 
-                                <td><%= item.secondaward %></td> 
-                                <td><%= item.lastnumaward %></td> 
-                            </tr>
-                            <% }) %>
-                        </th>
-                    </tr>
+                <tr>
+                    <th>
+                        <tr>
+                            <td><p>รางวัลที่1!!</p></td>
+                            <td><p>รางวัลที่2!!</p></td>
+                            <td><p>1ตัวท้าย!!</p></td>
+                        </tr>
+                        <% award016april.forEach(function(item) { %>
+                        <tr>
+                            <td><%= item.firstaward %></td> 
+                            <td><%= item.secondaward %></td> 
+                            <td><%= item.lastnumaward %></td> 
+                        </tr>
+                        <% }) %>
+                    </th>
+                </tr>
                 
                 
             </tr>
@@ -67,7 +67,6 @@
     <p class="p-Footer">© 2022 LeyBond_Series</p>
     <p class="p-Footer">Bangkok University</p>
     <hr>
-
   
 </body>
 </html>
